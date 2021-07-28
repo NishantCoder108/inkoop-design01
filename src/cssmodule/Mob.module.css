@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+
+.wrapper {
+  /* background: rgba(249, 246, 246, 0.44); */
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.wrapPhone {
+  scrollbar-width: none;
+  background: rgba(249, 246, 246, 0.44);
+}
+
+.nav div {
+  background: #ff00008a;
+  margin: 5px 15px;
+  height: 3px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.nav {
+  margin: 21px 3px;
+  height: 0px;
+  border-radius: 30px;
+}
+
+.one {
+  width: 15px;
+}
+.two {
+  width: 27px;
+}
+.three {
+  width: 21px;
+}
+
+.nav:hover div {
+  width: 27px;
+}
+/* Shopping cart  */
+
+.shopImg {
+  width: 39px;
+  transform: rotateY(180deg);
+  height: 33px;
+  margin: 21px 9px 3px 0px;
+}
+
+.wrapper div h1 {
+  margin: 14px 0px;
+  font-family: "Playfair Display", serif;
+}
+
+/* Text  */
+.text {
+  margin: 33px 39px;
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+/* Img Cart Wrap */
+.cartWrap {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  background: rgba(249, 246, 246, 0.44);
+}
+
+img {
+  width: 108px;
+  /* border: 2px solid red; */
+  border-radius: 100px;
+  height: 108px;
+}
+
+.cart {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 21px;
+  text-align: center;
+  height: 218px;
+  border-radius: 30px;
+  background: white;
+  margin: 9px 0 36px 3px;
+  box-shadow: 9px 10px 25px 5px #00000042;
+}
+
+/* Lorems Part  */
+.lorems {
+  color: #01010163;
+  margin: 9px 30px;
+  font-size: 1.3rem;
+}
